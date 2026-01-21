@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #050505;
+  --color-accent: #c5a059;
+  --color-bg-clean: #ffffff;
+  --color-brand-obsidian: #0f0f0f;
+  --color-brand-gold: #c5a059;
+  --color-brand-cream: #fafafa;
+  --color-brand-gray: #717171;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --animate-marquee: marquee 40s linear infinite;
+  --animate-float: float 5s ease-in-out infinite;
+  --animate-reveal: reveal 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-testimonial-scroll: t-scroll 40s linear infinite;
+  @keyframes t-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  @keyframes reveal {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+:root {
+  background-color: var(--color-brand-cream);
+  color: var(--color-primary);
+  font-family: var(--font-sans);
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
+}
+
+.luxury-title {
+  font-family: var(--font-serif);
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
