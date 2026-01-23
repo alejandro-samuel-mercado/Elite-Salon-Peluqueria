@@ -20,10 +20,10 @@ export default function BookingCalendar() {
           </p>
         </div>
         <div className="flex gap-4">
-          <button className="bg-gray-900 p-4  rounded-2xl hover:bg-black hover:text-white transition-all border-2 border-black shadow-sm">
+          <button className="bg-gray-900 p-4  rounded-2xl hover:bg-black text-white transition-all border-2 border-black shadow-sm">
             <ChevronLeft size={24} strokeWidth={3} />
           </button>
-          <button className="p-4 bg-gray-900 rounded-2xl hover:bg-black hover:text-white transition-all border-2 border-black shadow-sm">
+          <button className="p-4 bg-gray-900 rounded-2xl hover:bg-black text-white transition-all border-2 border-black shadow-sm">
             <ChevronRight size={24} strokeWidth={3} />
           </button>
         </div>

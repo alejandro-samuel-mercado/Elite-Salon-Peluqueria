@@ -33,7 +33,7 @@ export default function Navbar() {
             <div className="absolute -top-1 -right-1 w-3 h-3 bg-brand-gold rounded-full border-2 border-brand-obsidian" />
           </div>
           <div className="flex flex-col">
-            <span className="text-4xl font-bold luxury-title tracking-tighter uppercase leading-none text-brand-obsidian">
+            <span className="text-4xl max-md:text-2xl font-bold luxury-title tracking-tighter uppercase leading-none text-brand-obsidian">
               ELITE<span className="text-brand-gold italic">SALÓN</span>
             </span>
             <span className="text-[10px] font-black tracking-[0.5em] text-brand-gray uppercase mt-1">

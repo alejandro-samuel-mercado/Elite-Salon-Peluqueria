@@ -30,7 +30,7 @@ export default function FQAAccordion() {
         <span className="text-[11px] font-bold text-brand-gold uppercase tracking-[1em] block mb-6 italic">
           Soporte al Cliente
         </span>
-        <h2 className="text-7xl font-bold luxury-title text-brand-obsidian italic">
+        <h2 className="text-5xl md:text-7xl font-bold luxury-title text-brand-obsidian italic">
           Consultas Frecuentes.
         </h2>
       </div>
@@ -43,11 +43,11 @@ export default function FQAAccordion() {
           >
             <button
               onClick={() => setActive(active === i ? null : i)}
-              className="w-full p-12 flex justify-between items-center text-left"
+              className="w-full p-12 flex justify-between items-center text-left "
             >
-              <div className="flex items-center gap-10">
+              <div className="flex items-center gap-10 ">
                 <div
-                  className={`p-4 rounded-2xl transition-all duration-500 ${active === i ? "bg-brand-gold text-white" : "bg-black/5 text-brand-gold"}`}
+                  className={`max-md:hidden p-4 rounded-2xl transition-all duration-500 ${active === i ? "bg-brand-gold text-white" : "bg-black/5 text-brand-gold"}`}
                 >
                   {f.icon}
                 </div>
@@ -69,7 +69,7 @@ export default function FQAAccordion() {
                   exit={{ height: 0, opacity: 0 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <div className="px-12 pb-12 ml-20 max-w-3xl text-xl text-brand-obsidian/50 italic leading-relaxed font-medium">
+                  <div className="px-12 max-md:px-1 pb-12 ml-20 max-md:ml-1 max-w-3xl text-xl text-brand-obsidian/50 italic leading-relaxed font-medium">
                     {f.a}
                   </div>
                 </motion.div>

@@ -6,7 +6,7 @@ export default function ContactForm() {
   const [sent, setSent] = useState(false);
 
   return (
-    <div className="bg-gray-900 p-12 md:p-16 rounded-[3.5rem] shadow-[0_40px_100px_-20px_rgba(0,0,0,0.15)] border-2 border-zinc-100 relative overflow-hidden">
+    <div className="bg-gray-900 p-12 max-md:pt-13 rounded-[3.5rem] shadow-[0_40px_100px_-20px_rgba(0,0,0,0.15)] border-2 border-zinc-100 relative overflow-hidden max-md:px-6">
       {sent ? (
         <div className="text-center py-20 flex flex-col items-center">
           <CheckCircle size={80} className="text-green-600 mb-8" />

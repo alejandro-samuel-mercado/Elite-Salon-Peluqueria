@@ -12,10 +12,10 @@
   --font-serif: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
 
-  --animate-marquee: marquee 40s linear infinite;
+  --animate-marquee: marquee 20s linear infinite;
   --animate-float: float 5s ease-in-out infinite;
   --animate-reveal: reveal 1.2s cubic-bezier(0.16, 1, 0.3, 1);
-  --animate-testimonial-scroll: t-scroll 40s linear infinite;
+  --animate-testimonial-scroll: t-scroll 25s linear infinite;
   @keyframes t-scroll {
     from {
       transform: translateX(0);

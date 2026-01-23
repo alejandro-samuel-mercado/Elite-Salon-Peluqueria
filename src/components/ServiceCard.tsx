@@ -27,22 +27,22 @@ export default function ServiceCard({
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className={`relative p-12 bg-white border border-black/5 rounded-[3rem] transition-all duration-700 flex flex-col h-full group hover:shadow-[0_40px_80px_-15px_rgba(0,0,0,0.06)] ${premium ? "border-[#c5a059]/30" : ""}`}
+      className={`relative p-6 md:p-12 bg-white border border-black/5 rounded-[3rem] transition-all duration-700 flex flex-col h-full group hover:shadow-[0_40px_80px_-15px_rgba(0,0,0,0.06)] ${premium ? "border-[#c5a059]/30" : ""}`}
     >
-      <div className="mb-12">
+      <div className="mb-6 md:mb-12">
         <span className="text-[10px] font-bold uppercase tracking-[0.5em] text-[#c5a059] mb-4 block italic">
           {category}
         </span>
-        <h3 className="text-5xl font-bold luxury-title text-[#0a0a0a] leading-none italic">
+        <h3 className="text-3xl md:text-5xl font-bold luxury-title text-[#0a0a0a] leading-none italic">
           {title}
         </h3>
       </div>
 
-      <p className="text-[#0a0a0a]/60 text-lg font-medium italic leading-relaxed mb-10 border-l-2 border-[#c5a059]/20 pl-6">
+      <p className="text-[#0a0a0a]/60 text-base md:text-lg font-medium italic leading-relaxed mb-10 border-l-2 border-[#c5a059]/20 pl-6">
         {desc}
       </p>
 
-      <ul className="space-y-4 mb-14 flex-grow">
+      <ul className="space-y-4 mb-8 md:mb-14 flex-grow">
         {items.map((item, idx) => (
           <li
             key={idx}

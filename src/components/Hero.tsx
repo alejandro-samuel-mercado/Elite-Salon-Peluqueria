@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-[#fafafa]">
+    <section className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-[#fafafa] pt-20 md:pt-0">
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=2074"
@@ -13,17 +13,17 @@ export default function Hero() {
         <div className="absolute inset-0 bg-linear-to-b from-transparent via-[#fafafa]/60 to-[#fafafa]" />
       </div>
 
-      <div className="relative z-10 container mx-auto px-8 text-center">
+      <div className="relative z-10 container mx-auto px-4 md:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}
         >
-          <h1 className="text-7xl md:text-[9rem] font-bold luxury-title leading-[0.9] text-[#0a0a0a] mb-12">
+          <h1 className="text-5xl md:text-[9rem] font-bold luxury-title leading-[0.9] text-[#0a0a0a] mb-8 md:mb-12">
             REVELA TU <br />{" "}
             <span className="italic font-light">VERDADERO SER.</span>
           </h1>
-          <p className="max-w-xl mx-auto text-lg md:text-xl text-[#0a0a0a]/70 font-medium italic mb-16 leading-relaxed">
+          <p className="max-w-xl mx-auto text-base md:text-xl text-[#0a0a0a]/70 font-medium italic mb-10 md:mb-16 leading-relaxed">
             Un refugio de elegancia y cuidado integral en el centro de San
             Salvador de Jujuy. Expertos en diseño capilar, estética facial y
             cuidado de manos.

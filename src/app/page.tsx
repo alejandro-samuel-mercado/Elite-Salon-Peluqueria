@@ -17,9 +17,9 @@ export default function Home() {
       <GalleryGrid />
       <section id="servicios" className="py-30 px-8 max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-10">
-          <h2 className="text-7xl text-gray-900 font-bold luxury-text italic text-primary leading-none">
+          <h2 className="md:text-7xl text-5xl text-gray-900 font-bold luxury-text italic text-primary leading-none ">
             CARTA DE <br />{" "}
-            <span className="text-accent italic font-light">
+            <span className="text-accent italic font-light ">
               ESPECIALIDADES.
             </span>
           </h2>

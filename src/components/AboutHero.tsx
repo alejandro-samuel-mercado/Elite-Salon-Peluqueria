@@ -37,10 +37,10 @@ export default function AboutHero() {
               transition={{ duration: 1, ease: "easeOut" }}
               viewport={{ once: true }}
             >
-              <span className="text-[11px] font-bold text-brand-gold uppercase tracking-[1em] mb-8 block italic">
+              <span className="text-[11px] max-md:text-[8px] font-bold text-brand-gold uppercase tracking-[1em] mb-8 block italic">
                 Nuestra Filosofía Estética
               </span>
-              <h1 className="text-8xl md:text-[10rem] font-bold luxury-title italic text-brand-obsidian leading-[0.8] mb-14 tracking-tighter">
+              <h1 className="text-8xl max-md:text-[4rem] font-bold luxury-title italic text-brand-obsidian leading-[0.8] mb-14 tracking-tighter">
                 MAESTRÍA <br />{" "}
                 <span className="text-brand-gold">Y VISIÓN.</span>
               </h1>
@@ -51,9 +51,9 @@ export default function AboutHero() {
                 resultados de clase mundial a nuestra comunidad local.
               </p>
 
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-12 pt-12 border-t border-black/5">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-12 pt-12 border-t border-black/5 ">
                 {stats.map((item, i) => (
-                  <div key={i} className="flex flex-col gap-3 group">
+                  <div key={i} className="flex flex-col gap-3 group mx-auto">
                     <div className="group-hover:scale-110 transition-transform duration-500">
                       {item.icon}
                     </div>

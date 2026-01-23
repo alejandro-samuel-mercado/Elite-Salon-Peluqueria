@@ -29,8 +29,8 @@ export default function SobreNosotros() {
       <Marquee />
       <LottieAnim />
 
-      <section className="py-48 bg-white border-t border-black/5">
-        <div className="max-w-4xl mx-auto px-8 text-center">
+      <section className="py-24 md:py-48 bg-white border-t border-black/5">
+        <div className="max-w-4xl mx-auto px-4 md:px-8 text-center">
           <div className="flex justify-center gap-2 mb-10">
             {[...Array(5)].map((_, i) => (
               <Star
@@ -40,17 +40,17 @@ export default function SobreNosotros() {
               />
             ))}
           </div>
-          <h2 className="text-8xl font-bold luxury-title italic text-brand-obsidian leading-none mb-12 tracking-tighter uppercase">
+          <h2 className="text-5xl md:text-8xl font-bold luxury-title italic text-brand-obsidian leading-none mb-8 md:mb-12 tracking-tighter uppercase">
             ÚNETE A LA <br />{" "}
             <span className="text-brand-gold">DISTINCIÓN.</span>
           </h2>
-          <p className="text-3xl text-brand-obsidian/40 font-bold italic luxury-title leading-relaxed mb-20 max-w-2xl mx-auto uppercase tracking-tighter">
+          <p className="text-xl md:text-3xl text-brand-obsidian/40 font-bold italic luxury-title leading-relaxed mb-12 md:mb-20 max-w-2xl mx-auto uppercase tracking-tighter">
             Tu transformación te espera en el salón más exclusivo de Jujuy.
             Asegura tu lugar en nuestra agenda hoy.
           </p>
           <button
             onClick={() => (window.location.href = "/reservas")}
-            className="px-16 py-8 bg-brand-obsidian text-white font-bold italic tracking-widest uppercase text-xs hover:bg-brand-gold hover:text-brand-obsidian transition-all shadow-2xl"
+            className="px-12 md:px-16 py-6 md:py-8 bg-brand-obsidian text-white font-bold italic tracking-widest uppercase text-xs hover:bg-brand-gold hover:text-brand-obsidian transition-all shadow-2xl"
           >
             AGENDAR EXPERIENCIA ELITE
           </button>

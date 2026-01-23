@@ -53,7 +53,7 @@ export default function BlogSection() {
       date: "10 ENE",
       title: "UÑAS ESCULPIDAS: DISEÑOS MINIMALISTAS",
       desc: "La arquitectura de manos se inclina hacia tonos neutros y acabados mate para esta temporada de verano.",
-      img: "https://images.unsplash.com/photo-1595152772835-219674b2a8a6",
+      img: "https://max-md:text-2xl images.unsplash.com/photo-1595152772835-219674b2a8a6",
     },
     {
       id: 6,
@@ -70,9 +70,9 @@ export default function BlogSection() {
 
   return (
     <section className="py-15 px-8  ">
-      <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center mb-24 gap-10">
-          <div className="flex gap-4 overflow-x-auto no-scrollbar pb-4 md:pb-0 ">
+      <div className="max-w-7xl mx-auto ">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-24 gap-10 ">
+          <div className="flex gap-4 max-md:grid max-md:grid-cols-2  overflow-x-auto no-scrollbar pb-4 md:pb-0  ">
             {categories.map((c) => (
               <button
                 key={c}

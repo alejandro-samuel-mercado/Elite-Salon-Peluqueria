@@ -105,7 +105,7 @@ export default function Testimonials() {
           {[...reviewsRow1, ...reviewsRow1].map((r, i) => (
             <div
               key={i}
-              className="inline-block w-[450px] mx-5 p-12 bg-[#fafafa] rounded-[3.5rem] border border-black/5 shadow-sm group hover:border-[#c5a059]/30 transition-colors"
+              className="inline-block w-[300px] md:w-[450px] mx-5 p-8 md:p-12 bg-[#fafafa] rounded-[3.5rem] border border-black/5 shadow-sm group hover:border-[#c5a059]/30 transition-colors"
             >
               <div className="flex justify-between items-start mb-8">
                 <Quote className="text-[#c5a059]/30" size={36} />
@@ -141,7 +141,7 @@ export default function Testimonials() {
           {[...reviewsRow2, ...reviewsRow2].map((r, i) => (
             <div
               key={i}
-              className="inline-block w-[450px] mx-5 p-12 bg-[#fafafa] rounded-[3.5rem] border border-black/5 shadow-sm group hover:border-[#c5a059]/30 transition-colors"
+              className="inline-block w-[300px] md:w-[450px] mx-5 p-8 md:p-12 bg-[#fafafa] rounded-[3.5rem] border border-black/5 shadow-sm group hover:border-[#c5a059]/30 transition-colors"
             >
               <div className="flex justify-between items-start mb-8">
                 <Quote className="text-[#c5a059]/30" size={36} />

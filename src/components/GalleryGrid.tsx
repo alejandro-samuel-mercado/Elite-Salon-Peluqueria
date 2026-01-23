@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 export default function GalleryGrid() {
   const images = [
     {
-      s: "col-span-2 row-span-2",
+      s: "md:col-span-2 md:row-span-2",
       u: "https://images.unsplash.com/photo-1562322140-8baeececf3df",
     },
     {
-      s: "col-span-1 row-span-1",
+      s: "md:col-span-1 md:row-span-1",
       u: "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f",
     },
     {
-      s: "col-span-1 row-span-2",
+      s: "md:col-span-1 md:row-span-2",
       u: "https://images.unsplash.com/photo-1560066984-138dadb4c035",
     },
     {
-      s: "col-span-1 row-span-1",
+      s: "md:col-span-1 md:row-span-1",
       u: "https://images.unsplash.com/photo-1605497788044-5a32c7078486",
     },
   ];

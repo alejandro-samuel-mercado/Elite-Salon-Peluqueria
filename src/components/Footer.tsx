@@ -1,11 +1,11 @@
 "use client";
 import {
-  Facebook,
-  Instagram,
-  Mail,
-  MapPin,
-  Phone,
-  Scissors,
+    Facebook,
+    Instagram,
+    Mail,
+    MapPin,
+    Phone,
+    Scissors,
 } from "lucide-react";
 
 export default function Footer() {
@@ -50,10 +50,10 @@ export default function Footer() {
             Síguenos
           </h4>
           <div className="flex gap-6">
-            <button className="p-4 bg-white/5 rounded-2xl hover:bg-gold-soft hover:text-black transition-all">
+            <button className="p-4 bg-white/5 text-white rounded-2xl hover:bg-gold-soft hover:text-black transition-all">
               <Instagram size={24} />
             </button>
-            <button className="p-4 bg-white/5 rounded-2xl hover:bg-gold-soft hover:text-black transition-all">
+            <button className="p-4 bg-white/5 text-white rounded-2xl hover:bg-gold-soft hover:text-black transition-all">
               <Facebook size={24} />
             </button>
           </div>
